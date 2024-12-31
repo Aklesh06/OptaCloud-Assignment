@@ -1,8 +1,13 @@
-# React + Vite
+# OptaCloud Assignment: Delivery Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+It is a Product Delivery Website where one can select location for the delivery address. In this site one can save there delivery location in the "Address Form" and the address which used many time is shown as Favorite in it. This Project is made with React for Frontend and Node.js for backend.
 
-Currently, two official plugins are available:
+To run this project open the terminal and run the following for react-app to run:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+            cd deliveryApp
+            npm install
+            npm run dev
+
+Then open another terminla and run the following for node.js to run:
+
+            node server.js
