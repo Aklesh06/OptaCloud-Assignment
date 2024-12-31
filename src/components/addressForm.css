@@ -1,0 +1,123 @@
+.address-form-container {
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  h2, h3 {
+    text-align: center;
+  }
+  
+  .address-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .address-form input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .categories {
+    margin-bottom: 15px;
+  }
+
+  .categories p{
+    text-align: left;
+  }
+  
+  .category-button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4em;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  .category-button:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .category-button.selected {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+  }
+  
+  .save-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .save-button:hover {
+    background-color: #218838;
+  }
+  
+  .saved-addresses ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .saved-addresses li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .saved-addresses span{
+    font-size: small;
+  }
+
+  .saved-addresses .adr-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .saved-addresses li:hover{
+    background-color: #f9f8f8 ;
+    cursor: pointer;
+  }
+
+  .saved-addresses .adr-box .box1{
+    display: flex;
+    flex-direction: row;
+    margin: 0.2em;
+    justify-content: center;
+    align-items: center;
+  } 
+  .saved-addresses .adr-box .box .icon{
+    justify-content: center;
+    align-items: center;
+    padding: 0.5em;
+  }
+
+  .saved-addresses .adr-box .box1 .address{
+    text-align: left;
+    padding: 0.5em;
+  }
+
+  .saved-addresses .adr-box .box2{
+    display: flex;
+    flex-direction: row;
+    margin: 0.2em;
+    justify-content: center;
+    align-items: center;
+  } 
+  

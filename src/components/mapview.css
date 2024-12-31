@@ -1,0 +1,75 @@
+.gm-style-iw {
+    background: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+
+}
+
+.gm-style-iw-d {
+    overflow: hidden !important;
+}
+
+.gm-style .gm-style-iw-tc::after {
+    background-color: red !important;
+}
+
+button{
+    padding: 8px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #0056b3;
+}
+
+.saved-addresses-page {
+    width: 600px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .address-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .address-list li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .search-container {
+    margin: 20px 0;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .search-container input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .search-container button {
+    padding: 8px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .search-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .map{
+    margin-bottom: 1em;
+  }
